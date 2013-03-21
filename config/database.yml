@@ -19,8 +19,8 @@ development:
   encoding: unicode
   database: splog_development
   pool: 5
-  username: splog
-  password:
+  username: rails
+  password: 1113
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,8 +48,8 @@ test:
   encoding: unicode
   database: splog_test
   pool: 5
-  username: splog
-  password:
+  username: rails
+  password: 1113
 
 production:
   adapter: postgresql
